@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bri">
+    <div className="">
       <Button variant="destructive" size="icon">Deneme</Button>
       <button>test</button>
     </div>
