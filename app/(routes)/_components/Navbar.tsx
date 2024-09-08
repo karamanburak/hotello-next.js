@@ -1,13 +1,16 @@
 import { ModeToggle } from "@/components/ModeToggle";
 import Image from "next/image";
 import React from "react";
+import UserToggle from "./UserToggle";
+import MobileMenu from "./MobileMenu";
+
 
 const Navbar = () => {
     return (
         <div className={`w-full z-20 items-center fixed`}>
             <div className="container">
                 <div className="px-4 py-6 flex flex-row items-center justify-center">
-                    <div className="w-20 h-20 py-4 px-3 rounded-xl bg-white">
+                    <div className="w-20 py-4 px-3 rounded-xl">
                         <Image
                             src="/logo.png"
                             alt="logo"
@@ -21,8 +24,11 @@ const Navbar = () => {
                         About
                     </div>
                     <div className="flex lg:flex items-center ml-auto gap-2">
+                        <UserToggle />
                         <ModeToggle />
-
+                        <div className="lg:hidden flex flex-row items-center ml-auto gap-2">
+                            <MobileMenu />
+                        </div>
                     </div>
                 </div>
             </div>
