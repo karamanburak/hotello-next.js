@@ -32,12 +32,22 @@ export const NavMenu = [
 export const SliderImage = [
   {
     id: 1,
-    href: "/slider/hotello1.jpg",
+    href: "/slider/hotello1.webp",
     alt: "slider 1",
   },
   {
     id: 2,
-    href: "/slider/hotello2.jpg",
+    href: "/slider/hotello2.webp",
     alt: "slider 2",
+  },
+  {
+    id: 3,
+    href: "/slider/hotello3.webp",
+    alt: "slider 3",
+  },
+  {
+    id: 4,
+    href: "/slider/hotello4.webp",
+    alt: "slider 4",
   },
 ];
