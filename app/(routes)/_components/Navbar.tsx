@@ -3,6 +3,8 @@ import Image from "next/image";
 import React from "react";
 import UserToggle from "./UserToggle";
 import MobileMenu from "./MobileMenu";
+import { NavMenu } from "@/constans";
+import NavItem from "./NavItem";
 
 
 const Navbar = () => {
@@ -20,8 +22,9 @@ const Navbar = () => {
                         />
                     </div>
                     <div className="flex-row lg:flex hidden items-center gap-9 ml-auto">
-                        Home
-                        About
+                        {NavMenu.map((item, index) => (
+                            <NavItem key={index} {...item} />
+                        ))}
                     </div>
                     <div className="flex lg:flex items-center ml-auto gap-2">
                         <UserToggle />
