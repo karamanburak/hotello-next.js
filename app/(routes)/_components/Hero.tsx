@@ -10,6 +10,7 @@ import {
 import Autoplay from "embla-carousel-autoplay"
 import Image from "next/image";
 import { SliderImage } from "@/constans";
+import HeroForm from "./HeroForm";
 
 const Hero = () => {
     return (
@@ -26,9 +27,8 @@ const Hero = () => {
                 }}
             >
                 <CarouselContent>
-
                     {SliderImage.map((image) => (
-                        <CarouselItem key={image.id}>
+                        <CarouselItem key={image.id} >
                             <Image
                                 src={image.href}
                                 alt={image.alt}
@@ -42,6 +42,7 @@ const Hero = () => {
                 <CarouselPrevious className="left-0" />
                 <CarouselNext className="right-0" />
             </Carousel>
+            <HeroForm />
         </div>
     )
 };
