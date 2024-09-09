@@ -15,10 +15,10 @@ const HeroForm = () => {
     return (
         <div className="absolute bottom-20   w-full flex justify-center">
             <div className="mx-auto container justify-center flex">
-                <div className="bg-[#647172] bg-opacity-65 p-6 w-full max-w-4xl shadow-lg rounded-xl text-white">
+                <div className="bg-myLight2 bg-opacity-65 p-6 w-full max-w-4xl shadow-lg rounded-xl text-white">
 
                     Hero Form
-                    <button className="bg-[#1A3131]">Hello</button>
+                    <button className="bg-[#1A3131]"></button>
                 </div>
 
             </div>

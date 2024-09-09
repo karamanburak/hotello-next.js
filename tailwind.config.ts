@@ -20,10 +20,10 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
-        mydark1: "#1A1A1A",
-        mydark2: "#333333",
-        myLight1: "#E09F3E",
-        myLight2: "#FFD580",
+        mydark1: "#0D1A31 ",
+        mydark2: "#14274A",
+        myLight1: "#5B799F ",
+        myLight2: "#AFC2D9 ",
       },
       brightness: {
         35: ".35",
