@@ -14,7 +14,7 @@ import HeroForm from "./HeroForm";
 
 const Hero = () => {
     return (
-        <div className="relative h-[32rem]">
+        <div className="relative h-[32rem] mb-28">
             <Carousel
                 plugins={[
                     Autoplay({

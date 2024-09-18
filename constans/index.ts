@@ -1,6 +1,6 @@
 import { TbWorldWww } from "react-icons/tb";
 import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTripadvisor } from "react-icons/fa";
 
 export const NavMenu = [
   {
@@ -67,7 +67,7 @@ export const FooterSocial = [
   },
   {
     id: 3,
-    icon: FaXTwitter,
-    title: "X",
+    icon: FaTripadvisor,
+    title: "Trip Advisor",
   },
 ];

@@ -22,8 +22,8 @@ const Footer = () => {
                 <div>
                     {FooterSocial.map(item => (
                         <>
-                            <div key={item.id} className="flex gap-2">
-                                <item.icon className=" mt-1" />
+                            <div key={item.id} className="flex gap-2 py-1 text-sm">
+                                <item.icon className=" mt-1 text-sm" />
                                 {item.title}
                             </div>
                         </>

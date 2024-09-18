@@ -9,7 +9,7 @@ interface NavItemProps {
 const NavItem = ({ title, url }: NavItemProps) => {
     return (
         <Link href={url}>
-            <div className="cursor-pointer">
+            <div className="cursor-pointer hover:text-white hover:text-opacity-100 hover:shadow-[0_2px_0_0_white] transition-all duration-100">
                 {title}
             </div>
         </Link>

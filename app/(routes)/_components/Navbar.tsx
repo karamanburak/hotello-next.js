@@ -26,7 +26,7 @@ const Navbar = () => {
                             className="w-16 h-13"
                         />
                     </div>
-                    <div className="lg:flex hidden items-center gap-9 ml-auto text-white">
+                    <div className="lg:flex hidden items-center gap-9 ml-auto text-white text-opacity-70">
                         {NavMenu.map((item, index) => (
                             <NavItem key={index} {...item} />
                         ))}
